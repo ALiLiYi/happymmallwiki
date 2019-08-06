@@ -1,0 +1,8 @@
+{
+  "name": "happymmallwiki",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "git@github.com:ALiLiYi/happymmallwiki.git",
+  "author": "shililiu <allyllys@163.com>",
+  "license": "MIT"
+}
