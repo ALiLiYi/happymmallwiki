@@ -1,6 +1,6 @@
-import React        from 'react';
+import React        	from 'react';
 
-import RcPagination   from 'rc-pagination';
+import RcPagination   	from 'rc-pagination';
 import 'rc-pagination/dist/rc-pagination.min.css';
 
 // 通用分页组件

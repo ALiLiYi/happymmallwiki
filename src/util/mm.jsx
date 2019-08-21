@@ -7,7 +7,6 @@ class MUtil{
 				dataType 	: params.dataType 	|| 'json',
 				data 		: params.data 		|| null,
 				success 	: res => {
-					console.log('成功',res)
 					// 数据请求成功
 					if(0 === res.status){
 						typeof resolve === 'function' && resolve(res.data, res.msg);
@@ -39,9 +38,13 @@ class MUtil{
             result      = queryString.match(reg);
         return result ? decodeURIComponent(result[2]) : null;
     }
+    // 成功提示
+    successTips(successMsg){
+    	alert(successMsg || '操作成功!');
+    }
     // 错误提示
     errorTips(errMsg){
-    	alert(errMsg || '好像哪里出错了~')
+    	alert(errMsg || '好像哪里出错了~');
     }
     // 本地存储
     setStorage(name, data){

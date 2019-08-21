@@ -81,6 +81,9 @@ p {
     overflow-y : auto;
     background: #2b2e33;
 }
+.navbar-side::-webkit-scrollbar{
+    width: 0;
+}
 
 #page-wrapper {
     position: relative;
