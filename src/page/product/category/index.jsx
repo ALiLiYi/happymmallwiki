@@ -93,7 +93,6 @@ class CategoryList extends React.Component{
 											? <Link to={`/product-category/index/${item.id}`}>查看子品类</Link>
 											: null
 										}
-										
 									</td>
 								</tr>
 							)
